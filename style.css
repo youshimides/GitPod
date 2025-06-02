@@ -37,6 +37,25 @@ header ul{
     display: flex;
     justify-content: center;
 }
+.logog{
+     transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.logog:hover{
+    transform: scale(1.05);
+}
+.buttons li a {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 4px;
+}
+.buttons li a:hover,
+.buttons li a:focus {
+    transform: scale(1.05); 
+    background-color: rgba(0, 0, 0, 0.05); 
+}
 .login{
     color: white;
     background-color: black;
@@ -45,6 +64,14 @@ header ul{
     border-radius: 12px;
     box-shadow: none;
     border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.login:hover,
+.login:focus{
+    transform: scale(1.05); 
+    background-color: rgb(243, 243, 243);
+    color: black;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.75);
 }
 a{
     color: black;
@@ -61,7 +88,6 @@ a{
     display: block;
 }
 .always-ready h1{
-
     font-size: 80px;
     font-weight: bold;
 }
@@ -85,13 +111,29 @@ a{
     font-weight: bold;
     margin-right: 24px;
     cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.tnow:hover{
+    transform: scale(1.05);
+    background-color: black;
+    color: orange;
 }
 .always-under p{
     font-size: 16px;
 }
-.apps{
-    margin-right:28px;
+.mini_icon {
+    display: flex;  
+    align-items: center;
 }
+.mini_icon a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.mini_icon a:hover,
+.mini_icon a:focus{
+    transform: scale(1.15);
+}
+
 .fox{
     margin-right: 28px;
 }
@@ -150,6 +192,15 @@ a{
     margin-top: 139px;
     display: flex;
     gap: 16px;
+}
+.cicdbuttons a{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.cicdbuttons a:hover,
+.cicdbuttons a:focus{
+    transform: scale(1.15);
+    
 }
 .moreprebuild{
     width: 162px;
