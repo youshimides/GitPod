@@ -976,14 +976,14 @@ a{
 }
 
 
-@media (max-width: 1399px) {
+@media (max-width: 1400px) {
     .footer-content {
         gap: 120px;
     }
 }
 
-/* 992px - 1199px */
-@media (max-width: 1199px) {
+
+@media (max-width: 1200px) {
     .footer {
         margin-top: 120px;
         padding-top: 50px;
@@ -994,8 +994,7 @@ a{
     }
 }
 
-/* 768px - 991px */
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .footer {
         margin-top: 100px;
     }
@@ -1013,7 +1012,7 @@ a{
     }
 }
 
-/* 576px - 767px */
+
 @media (max-width: 767px) {
     .footer {
         margin-top: 80px;
@@ -1040,7 +1039,6 @@ a{
     }
 }
 
-/* 375px - 575px */
 @media (max-width: 575px) {
     .footer {
         margin-top: 60px;
@@ -1057,22 +1055,22 @@ a{
     }
     
     .footer-bottom {
-        flex-direction: row; /* Оставляем в строке */
-        justify-content: space-between; /* Распределяем пространство */
+        flex-direction: row; 
+        justify-content: space-between; 
         align-items: center;
     }
     
     .social-icons {
-        justify-content: flex-end; /* Иконки справа */
+        justify-content: flex-end; 
         width: auto;
     }
     
     .social-icons a {
-        margin: 0 0 0 15px; /* Отступ только слева */
+        margin: 0 0 0 15px; 
     }
     
     .copyright {
-        justify-content: flex-start; /* Текст слева */
+        justify-content: flex-start; 
     }
 }
 
@@ -1145,4 +1143,22 @@ a{
     .buttons li a {
         padding: 6px 8px;
     }
+}
+@media (max-width: 375px) {
+    header {
+        padding: 12px 10px;
+        justify-content: space-between;
+    }
+    
+    .logog {
+        width: 80px; 
+    }
+    
+    .login {
+        width: 70px;
+        height: 28px;
+        font-size: 14px;
+    }
+    
+
 }
